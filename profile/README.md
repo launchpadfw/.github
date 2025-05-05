@@ -14,8 +14,8 @@ Copyright 2025 (c) HyScript7
 
 <div align="center">
   <!-- Logo or Icon -->
-  <a href="https://github.com/launchpadfw/launchpad">
-    <img src="logo.png" alt="logo" width="150" height="auto" />
+  <a href="https://github.com/launchpadfw/">
+    <img src="https://github.com/launchpadfw/lp-fw/logo.png" alt="logo" width="150" height="auto" />
   </a>
   <h1>Launchpad Framework</h1>
   <!-- Badges -->
