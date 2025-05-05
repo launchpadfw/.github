@@ -1,79 +1,88 @@
-# LaunchPad · GitHub Organization
+<!--
+Credit for this README where credit's due:
+- https://github.com/othneildrew/Best-README-Template/blob/main/README.md
+- https://github.com/Louis3797/awesome-readme-template
 
-Welcome to **LaunchPad**, a development organization focused on building scalable, maintainable, and high-performance digital frameworks, systems, and tools. We specialize in internal frameworks, deployment infrastructure, and modular solutions designed to accelerate technical teams and projects with high development standards.
+These two templates have been extremely helpful when creating my own README template
+and I've drawn inspiration from them heavily.
 
-> **Important Notice:**  
-> All repositories under this organization are proprietary. Code may be publicly visible for transparency, recruitment, or partnership purposes, but **no repository is licensed for public use, distribution, modification, or integration** without formal written consent.
+Please keep this acknowledgement in further modifications of the README file, though
+it's not like I can tell you what to do. I'm just a comment in a text file.
 
----
+Copyright 2025 (c) HyScript7
+-->
 
-## What We Do
+<div align="center">
+  <!-- Logo or Icon -->
+  <a href="https://github.com/launchpadfw/launchpad">
+    <img src="logo.png" alt="logo" width="150" height="auto" />
+  </a>
+  <h1>Launchpad Framework</h1>
+  <!-- Badges -->
+  <p>
+  <a href="https://github.com/launchpadfw/launchpad/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/launchpadfw/launchpad.svg?style=for-the-badge" alt="License" />
+    </a>
+    <a href="https://github.com/launchpadfw/launchpad/stargazers">
+      <img src="https://img.shields.io/github/stars/launchpadfw/launchpad.svg?style=for-the-badge" alt="Stars">
+    </a>
+  </p>
+  <!-- Short Description -->
+  <p>
+  A batteries-included framework for developing discord bots with persistent
+  data storage and an API.
+  </p>
+</div>
 
-LaunchPad develops and maintains a series of tightly integrated tools and frameworks aimed at:
+<a id="about"></a>
 
-- Creating internal launch frameworks for rapid product development
-- Providing structure and consistency across complex front-end and back-end projects
-- Enabling teams to build on secure, scalable, and performance-oriented foundations
-- Establishing coding standards, reusable components, and engineering workflows
+## 🚀 About
 
----
+Launchpad is a python framework built around discord.py that enables you
+to easily create a modular discord bot along with an API, which should make
+it easier to introduce a web dashboard later on.
 
-## Repositories
+We created this framework, because we often duplicated "loader" code across
+our discord bot projects, and it has become an endeavour to maintain them
+all.
 
-Below are key categories of projects managed under this organization:
+<a id="built-with"></a>
 
-- **Launch Frameworks**  
-  Scaffolded starters for internal web or mobile applications.
+## 🛠️ Built with
 
-- **Infrastructure Tools**  
-  Deployment utilities, CI/CD scripts, monitoring integrations, and more.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Discord.py](https://img.shields.io/badge/Discord.py-%23376ea1.svg?style=for-the-badge&logo=discord&logoColor=white)
 
-- **Documentation & Standards**  
-  Style guides, architectural templates, and internal process documents.
+<a id="getting-started"></a>
 
-- **Utility Libraries**  
-  Shared packages, helper modules, and core engine logic used across multiple products.
+## 🏁 Getting started
 
-Note: Access levels vary by repository. Public visibility does **not** imply permission to reuse or redistribute.
+Coming soon.
 
----
+<a id="support"></a>
 
-## Licensing and Usage
+## ✉️ Support
 
-All repositories and code under the **LaunchPad** organization are protected under **proprietary licenses**. Unless otherwise explicitly stated, you may **not**:
+If you encounter any issues or have questions, feel free to:
 
-- Use the code in private or commercial projects
-- Modify, copy, or create derivative works
-- Distribute the contents in any form
-- Mirror or re-host code from this organization
+- Open an issue in the [Issues tab](https://github.com/launchpadfw/launchpad/issues).
+- Contact us via our discord server: Coming soon!
+- Check the website: Coming Soon!
 
-Each repository includes its own `LICENSE.txt` with detailed terms.  
-Violations may result in legal enforcement action.
+We’re here to help!
 
----
+<a id="license"></a>
 
-## Contact
+## 📄 License
 
-To request access, discuss licensing, or explore collaboration, please contact:
+This project is licensed under the **[MIT License](LICENSE)** - feel free to use, modify, and distribute this project in accordance with the license terms.
 
-**MrHarryW**  
-Founder & Lead Architect, LaunchPad  
-📧 Email: N/A
-💿 Discord: @mrharryw
-🌐 Website: [https://mrharryw.dev](https://mrharryw.dev)  
-🔗 GitHub: [https://github.com/MrHarryW](https://github.com/MrHarryW)
+<a id="acknowledgments"></a>
 
-**HyScript7**  
-Founder & Lead Architect, LaunchPad  
-📧 Email: hyscript7@gmail.com  
-💿 Discord: @hyscript7
-🌐 Website: N/A
-🔗 GitHub: [https://github.com/HyScript7](https://github.com/HyScript7)
+## 💖 Acknowledgments
 
----
+We would like to express our deepest gratitude to the following individuals and organizations:
 
-## Disclaimer
-
-All content within this organization is provided **as is**, with no express or implied warranty.  
-LaunchPad, its contributors, and its owners assume no responsibility for unauthorized usage, damage, or loss arising from improper use of repositories within this organization.
-
+- [Discord.py by Rapptz](https://github.com/Rapptz/discord.py) - this framework wouldn't be possible without this already awesome library!
+- [FastAPI by Tiangolo](https://github.com/fastapi/fastapi) - which was used for the API aspect of this framework.
